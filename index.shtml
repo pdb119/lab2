@@ -8,25 +8,15 @@
 </head>
 <body>
 	<div class="contentBox">
-		<img class="leftImage" src="img/logo.png" alt="gears logo">
-		<p class="title">
-			Widgets-R-Us
-		<p class="subTitle">
-			Making high-quality widgets since 1991
-		</p>
-		<nav class="navBar">
-			<ul>
-			<li><a href="#">Home</a></li>
-			<li><a href="#">About</a></li>
-			</ul>
-		</nav>
+	<!--#include virtual="includes/nav.html" -->
 		<div class="bodyContent">
-			<img class="leftImage" src="img/factory.jpg" alt="picture of some boxes"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			<img class="leftImage" src="img/factory.jpg" alt="picture of some boxes">
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 			</p>
 			<p>
 				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -36,6 +26,7 @@
 				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 			</p>
+			<img src="img/free-shipping.jpg" class="rightImage" alt="We offer free shipping">
 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -51,7 +42,8 @@
 				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 			</p>
 		</div>
+		<!--#include virtual="includes/footer.html" -->
 	</div>
-
+<a href="https://github.com/pdb119/lab2.git">Git Hub Link</a>
 </body>
 </html>

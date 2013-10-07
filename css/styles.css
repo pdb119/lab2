@@ -15,39 +15,88 @@ body {
 
 .contentBox {
 	width: 80%;
-	margin: 25 auto;
+	margin: 25px auto;
 	background-color: white;
 	padding: 15px;
 	box-shadow: 5px 5px 5px #888;
 }
+p {
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
 .title {
 	font-family: Boogaloo, sans-serif;
 	font-size: 36px;
 	color: #116189;
 	margin: 7px;
 }
+
 .subTitle {
 	font-style: italic;
 	font-size: 120%;
 	margin: 7px;
 }
+
 .leftImage {
 	float: left;
 	margin-right: 6px;
 }
+
+.rightImage {
+	float: right;
+	margin-left: 6px;
+}
+
 .navBar {
 	background-color: #D74710;
 	margin-bottom:20px;
+	border-radius: 5px;
 }
+
 .navBar a {
 	color: white;
 	font-weight: bold;
 	text-decoration: none;
 }
+
 .navBar li {
 	display: inline-block;
 	padding: 4px;
+	border-radius:5px;
 }
+
 .navBar li:hover {
 	background-color: #FF9D45;
+}
+
+.footer {
+	margin-top: 10px;
+	padding: 7px;
+	border-top: thin solid #cccccc;
+	font-style: italic;
+	font-size: 80%;
+}
+
+.footer a {
+	text-decoration: none;
+	color: blue;
+}
+
+.footer a:hover {
+	text-decoration: underline;
+}
+
+h1, h2 {
+	color: #116189;
+	font-weight: bold;
+	padding: 5px;
+}
+
+h1 {
+	font-size: 150%;
+}
+
+h2 {
+	font-size: 90%;
 }
